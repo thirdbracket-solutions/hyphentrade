@@ -154,7 +154,7 @@ const SitemapLinksFooterSection: FC = function () {
             Hyphentrade
           </a>
           <span className="block text-center text-sm text-gray-500 dark:text-gray-400">
-            © 2021-2022&nbsp;
+            © 2024-2025&nbsp;
             <a href="#" className="hover:underline">
               Hyphentrade™
             </a>

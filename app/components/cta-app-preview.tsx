@@ -7,10 +7,10 @@ const AppScreenshotWithCTAsHero: FC = function () {
   return (
     <section className="bg-white dark:bg-gray-900">
       <div className="mx-auto max-w-screen-xl px-4 pt-8 text-center lg:px-12 lg:pt-16">
-        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl capitalize">
           We invest in the world’s potential
         </h1>
-        <p className="mb-8 text-gray-500 dark:text-gray-400 sm:px-16 md:text-lg lg:text-xl xl:px-48">
+        <p className="mb-8 text-gray-500 dark:text-gray-400 sm:px-16  xl:px-48 text-lg font-normal ">
           Hyphen Trade’s works with commodity sellers who are sovereigns as well
           as large corporate houses located outside Bangladesh.
         </p>

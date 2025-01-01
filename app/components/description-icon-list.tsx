@@ -1,16 +1,18 @@
 import type { FC } from "react";
+import { MdAssistant } from "react-icons/md";
 
 const DescriptionWithFeatureListIconsSection: FC = function () {
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-slate-50 dark:bg-gray-800">
       <div className="mx-auto max-w-screen-xl items-center px-4 py-8 sm:py-16 lg:grid lg:gap-8 lg:px-6 xl:grid-cols-3 xl:gap-24">
         <div className="mb-8 lg:mb-0">
           <h2 className="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-            Key specialization areas of Hyphen Trades
+            Why Hyphen Trade?
           </h2>
-          <p className="mb-4 text-gray-500 dark:text-gray-400 sm:text-xl">
-            Here we focus on markets where creativity and innovation can unlock
-            long-term value and growth.
+          <p className="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400">
+            Our team has a history in working for multinational corporates -
+            both in and outside Bangladesh. We have a strong network of contacts
+            in the GTG space and have a deep understanding of the market.
           </p>
           <a
             href="#"
@@ -40,20 +42,16 @@ const DescriptionWithFeatureListIconsSection: FC = function () {
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <path
-                  fillRule="evenodd"
-                  d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z"
-                  clipRule="evenodd"
-                />
+                <path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z" />
               </svg>
             </div>
             <h3 className="mb-2 text-xl font-bold dark:text-white">
-              End-to-end Sourcing
+              Experties & Professionalism
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
-              Expertise in managing the entire end-to-end process for supply of
-              commodities to Government of Bangladesh under GTG
-              contracts/international tenders
+              We have a working relationship with the key stakeholders in the
+              GTG space. Our past work history signifies our strength in this
+              field. team.
             </p>
           </div>
           <div>
@@ -73,11 +71,36 @@ const DescriptionWithFeatureListIconsSection: FC = function () {
               </svg>
             </div>
             <h3 className="mb-2 text-xl font-bold dark:text-white">
-              Market Development
+              Experience & Access
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
-              Auto-assign tasks, send Slack messages, and much more. Now power
-              up with hundreds of new templates to help you get started.
+              We have direct access to all major importers in Bangladesh. Our
+              senior management team has over 20 years of experience in handling
+              commodity buyers in the Bangladesh market
+            </p>
+          </div>
+          <div>
+            <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-primary-100 dark:bg-primary-900 lg:h-12 lg:w-12">
+              <svg
+                className="h-5 w-5 text-primary-600 dark:text-primary-300 lg:h-6 lg:w-6"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </div>
+            <h3 className="mb-2 text-xl font-bold dark:text-white">
+              Data-driven Marketing
+            </h3>
+            <p className="text-gray-500 dark:text-gray-400">
+              Our strategic competitive advantage lies in our capability in
+              real-time data analytics which drives marketing – this stands
+              unmatched in the Bangladesh market
             </p>
           </div>
           <div>
@@ -97,28 +120,12 @@ const DescriptionWithFeatureListIconsSection: FC = function () {
               </svg>
             </div>
             <h3 className="mb-2 text-xl font-bold dark:text-white">
-              Relationship Management and Support
+              On-Time Payment
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
-              Audit-proof software built for critical financial operations like
-              month-end close and quarterly budgeting.
-            </p>
-          </div>
-          <div>
-            <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-primary-100 dark:bg-primary-900 lg:h-12 lg:w-12">
-              <svg
-                className="h-5 w-5 text-primary-600 dark:text-primary-300 lg:h-6 lg:w-6"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z" />
-              </svg>
-            </div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">Sales</h3>
-            <p className="text-gray-500 dark:text-gray-400">
-              Craft beautiful, delightful experiences for both marketing and
-              product with real cross-company collaboration.
+              Structuring capabilities for ensuring deep access to all major
+              bank’s decision makers in international trade – we are able to
+              offer payment risk management which is a unique offering itself
             </p>
           </div>
         </div>
