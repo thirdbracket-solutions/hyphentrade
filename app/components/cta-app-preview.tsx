@@ -15,7 +15,16 @@ const AppScreenshotWithCTAsHero: FC = function () {
           as large corporate houses located outside Bangladesh.
         </p>
         <div className="mb-8 flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-x-4 sm:space-y-0 lg:mb-16">
-          <Button href="#" size="lg" color="blue">
+          <Button
+            gradientDuoTone="cyanToBlue"
+            size="lg"
+            theme={{
+              gradientDuoTone: {
+                cyanToBlue:
+                  "bg-gradient-to-r from-sky-600 to-primary-700 text-white focus:ring-2 focus:ring-primary-300 enabled:hover:bg-gradient-to-bl dark:focus:ring-primary-800",
+              },
+            }}
+          >
             About Us
           </Button>
           <Button
@@ -40,21 +49,21 @@ const AppScreenshotWithCTAsHero: FC = function () {
           </Button>
         </div>
         <Image
-          className="z-1 mx-auto mb-5 rounded-lg border border-gray-200 shadow-xl dark:hidden dark:border-gray-600 lg:mb-8"
+          className="z-1 mx-auto mb-5 rounded-lg border border-gray-200 shadow-xl  dark:border-gray-600 lg:mb-8 bg-slate-50 dark:bg-gray-800"
           src="/cover.png"
           alt="dashboard overview"
           width={800}
           height={500}
         />
-        <Image
-          className="z-1 mx-auto mb-5 hidden rounded-lg border border-gray-200 shadow-xl dark:block dark:border-gray-600 lg:mb-8"
+        {/* <Image
+          className="z-1 mx-auto mb-5 hidden rounded-lg border border-gray-200 shadow-xl dark:block dark:border-gray-600 lg:mb-8 bg-slate-50"
           src="/cover.png"
           width={800}
           height={500}
           alt="dashboard overview dark"
-        />
+        /> */}
       </div>
-      <div className="z-2 -mt-48 bg-white pb-8 pt-48 dark:bg-gray-900 sm:-mt-80 sm:pt-80 lg:pb-16">
+      <div className="z-2 -mt-48 bg-slate-50 pb-8 pt-48 dark:bg-gray-800 sm:-mt-80 sm:pt-80 lg:pb-16">
         <div className="mx-auto px-4 text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
           <div className="mt-8 flex flex-wrap items-center justify-center text-gray-500 sm:justify-between">
             <a

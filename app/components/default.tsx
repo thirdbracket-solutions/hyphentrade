@@ -1,19 +1,30 @@
 "use client";
 import { on } from "events";
-import { Button, DarkThemeToggle, Navbar } from "flowbite-react";
+import { Button, DarkThemeToggle, Flowbite, Navbar } from "flowbite-react";
 import Image from "next/image";
+import Link from "next/link";
 import type { FC } from "react";
+import { MdMenu } from "react-icons/md";
+import logo from "../../public/logo.svg";
 
 const DefaultHeaderNavigation: FC = function () {
   return (
-    <header>
-      <Navbar sticky-top fluid className="bg-white dark:bg-gray-900 ">
-        <Navbar.Brand href="https://flowbite.com">
+    <header className="sticky top-0 z-50">
+      <Navbar
+        fluid
+        border
+        theme={{
+          root: {
+            base: "bg-slate-50 px-2 py-2.5 border-slate-200/60 dark:border-gray-700/40 dark:bg-gray-800 sm:px-4 ",
+          },
+        }}
+      >
+        <Navbar.Brand href="https://flowbite.com" className="">
           <Image
-            src="./logo.svg"
-            width={32}
-            height={32}
-            className="mr-3 h-6 sm:h-9"
+            src={logo}
+            width={47}
+            height={47}
+            className="mr-1 h-6 sm:h-9"
             alt="Hyphen Trade Logo"
           />
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
@@ -21,15 +32,38 @@ const DefaultHeaderNavigation: FC = function () {
           </span>
         </Navbar.Brand>
         <div className="flex items-center gap-3 md:gap-2 lg:order-2 md:order-2">
-          <DarkThemeToggle />
-          <Button color="blue" href="#">
-            Get started
+          <Flowbite>
+            <DarkThemeToggle
+              theme={{
+                root: {
+                  base: "flex items-center justify-center rounded-md  p-2 text-sm text-gray-500 hover:bg-slate-200 focus:outline-none dark:text-slate-400 dark:hover:bg-gray-700 dark:focus:ring-gray-800",
+                  icon: "h-4 w-4 sm:h-5 sm:w-5",
+                },
+              }}
+            />
+          </Flowbite>
+
+          <Button
+            gradientDuoTone="cyanToBlue"
+            size="md"
+            theme={{
+              size: {
+                md: "!rounded-sm px-2 py-1.5 text-xs sm:text-sm sm:px-4 sm:py-2",
+              },
+              gradientDuoTone: {
+                cyanToBlue:
+                  "bg-gradient-to-r from-sky-600 to-primary-700 text-white focus:ring-2 focus:ring-primary-300 enabled:hover:bg-gradient-to-bl dark:focus:ring-primary-800",
+              },
+            }}
+          >
+            Get Started
           </Button>
 
           <Navbar.Toggle
+            barIcon={MdMenu}
             theme={{
-              // icon: "h-5 w-5 shrink-0",
-              base: "inline-flex items-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden",
+              icon: "h-6 w-6 shrink-0",
+              base: "inline-flex items-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none  dark:text-gray-400 dark:hover:bg-gray-700  md:hidden",
             }}
           />
         </div>

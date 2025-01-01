@@ -4,9 +4,9 @@
 <svg
    version="1.1"
    id="svg1"
-   width="46.664314"
-   height="47.151093"
-   viewBox="0 0 46.664314 47.151092"
+   width="46.664001"
+   height="47.151001"
+   viewBox="0 0 46.664001 47.151"
    sodipodi:docname="Hyphen trade card.ai"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -67,11 +67,10 @@
   <g
      id="layer-MC0"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1"
-     transform="translate(-103.08601,-381.85718)">
+     inkscape:label="Layer 1">
     <g
        id="g21"
-       transform="translate(21.075338,135.47107)">
+       transform="translate(-82.010822,-246.38615)">
       <path
          id="path2"
          d="m 0,0 c 0,7.259 3.741,13.638 9.405,17.32 h -33.656 c 3,-1.411 5.586,-3.807 7.41,-6.707 6.038,-9.32 2.698,-23.135 -7.397,-27.926 H 9.398 C 3.741,-13.632 0,-7.252 0,0"

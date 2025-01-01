@@ -1,6 +1,6 @@
 import AlternateImageWithFeatureListSection from "./components/alternate";
 import AppScreenshotWithCTAsHero from "./components/cta-app-preview";
-import DefaultFeatureListSection from "./components/default-feature";
+
 import DefaultNewsletterSection from "./components/default-newsletter";
 import DefaultPricingTable from "./components/default-pricing";
 import DescriptionWithFeatureListIconsSection from "./components/description-icon-list";
