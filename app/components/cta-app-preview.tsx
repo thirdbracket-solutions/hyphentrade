@@ -7,7 +7,7 @@ const AppScreenshotWithCTAsHero: FC = function () {
   return (
     <section className="bg-white dark:bg-gray-950">
       <div className="mx-auto max-w-screen-xl px-4 pt-8 text-center lg:px-12 lg:pt-16">
-        <h1 className="mb-4 text-4xl font-extrabold  tracking-tight leading-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl capitalize ">
+        <h1 className="mb-4 text-4xl font-extrabold   leading-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl capitalize ">
           We invest in the <br />
           world’s potential
         </h1>
@@ -31,7 +31,7 @@ const AppScreenshotWithCTAsHero: FC = function () {
           </Button>
           <Button
             href="/#products"
-            color="dark"
+            color="gray"
             size="lg"
             className="[&>span]:items-center"
           >

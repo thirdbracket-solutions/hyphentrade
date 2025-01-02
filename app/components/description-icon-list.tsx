@@ -6,7 +6,7 @@ const DescriptionWithFeatureListIconsSection: FC = function () {
     <section className="bg-slate-50 dark:bg-gray-900">
       <div className="mx-auto max-w-screen-xl items-center px-4 py-8 sm:py-16 lg:grid lg:gap-8 lg:px-6 xl:grid-cols-3 xl:gap-24">
         <div className="mb-8 lg:mb-0">
-          <h2 className="mb-4 text-3xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white md:text-4xl lg:text-5xl capitalize">
+          <h2 className="mb-4 text-3xl font-bold leading-tight  text-gray-900 dark:text-white md:text-4xl lg:text-5xl capitalize">
             Why Us?
           </h2>
           <p className="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400 leading-7">
@@ -45,7 +45,7 @@ const DescriptionWithFeatureListIconsSection: FC = function () {
                 <path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+            <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4 tracking-tight leading-tight">
               Experties & Professionalism
             </h3>
             <p className="text-gray-500 dark:text-gray-400 leading-6">
@@ -70,7 +70,7 @@ const DescriptionWithFeatureListIconsSection: FC = function () {
                 <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+            <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4 tracking-tight leading-tight">
               Experience & Access
             </h3>
             <p className="text-gray-500 dark:text-gray-400 leading-6">
@@ -94,7 +94,7 @@ const DescriptionWithFeatureListIconsSection: FC = function () {
                 />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+            <h3 className="text-2xl  text-gray-900 dark:text-white mb-4 tracking-tight leading-tight font-semibold ">
               Data-driven Marketing
             </h3>
             <p className="text-gray-500 dark:text-gray-400 leading-6">
@@ -119,7 +119,7 @@ const DescriptionWithFeatureListIconsSection: FC = function () {
                 />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+            <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4 tracking-tight leading-tight">
               On-Time Payment
             </h3>
             <p className="text-gray-500 dark:text-gray-400 leading-6">

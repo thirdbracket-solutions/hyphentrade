@@ -14,7 +14,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
           />
 
           <div className="mt-4">
-            <h2 className=" text-3xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white md:text-4xl lg:text-5xl capitalize">
+            <h2 className=" text-3xl font-bold leading-tight  text-gray-900 dark:text-white md:text-4xl lg:text-5xl capitalize">
               About Hyphen Trade
             </h2>
           </div>
@@ -31,7 +31,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
         <div className="mt-8 grid grid-cols-1 gap-8 lg:mt-16 lg:grid-cols-2 lg:gap-16">
           <div>
             <div>
-              <h3 className="text-2xl leading-tight tracking-tight font-bold text-gray-900 dark:text-white">
+              <h3 className="text-2xl leading-tight tracking-tight font-semibold text-gray-900 dark:text-white">
                 Overview
               </h3>
               <p className="mt-4    text-gray-500 leading-6 dark:text-gray-400">
@@ -97,7 +97,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
           </div>
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white leading-tight tracking-tight">
+              <h3 className="text-2xl font-semibold text-gray-900 dark:text-white leading-tight tracking-tight">
                 Background
               </h3>
               <p className="mt-4 leading-6 text-gray-500 dark:text-gray-400">
@@ -111,7 +111,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
               </p>
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white leading-tight tracking-tight">
+              <h3 className="text-2xl font-semibold text-gray-900 dark:text-white leading-tight tracking-tight">
                 Core Values
               </h3>
               <p className="mt-4 text-gray-500 dark:text-gray-400 leading-6">

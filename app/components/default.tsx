@@ -71,7 +71,7 @@ const DefaultHeaderNavigation: FC = function () {
           theme={{
             // list: "mt-4 flex flex-col lg:mt-0 lg:flex-row md:flex-row md:mt-0 md:space-x-4 lg:space-x-8 lg:text-base lg:font-medium md:text-[14px] md:font-normal",
             base: "w-full md:block md:w-auto px-2 ",
-            list: "mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:text-sm md:font-medium pb-4",
+            list: "mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:text-sm md:font-medium pb-4 md:pb-0",
           }}
           className="lg:order-1 md:order-1"
         >

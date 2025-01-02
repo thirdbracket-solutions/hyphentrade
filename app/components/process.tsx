@@ -3,7 +3,7 @@ export function DefaultFeatureListSection() {
     <section className="bg-white dark:bg-gray-950">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6">
         <div className="mb-8 max-w-screen-md lg:mb-16">
-          <h2 className="text-3xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white md:text-4xl lg:text-5xl capitalize mb-4">
+          <h2 className="text-3xl font-bold leading-tight  text-gray-900 dark:text-white md:text-4xl lg:text-5xl capitalize mb-4">
             How Hyphen Trade Works?
           </h2>
           <p className="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400 leading-7">
@@ -28,7 +28,7 @@ export function DefaultFeatureListSection() {
                 />
               </svg>
             </div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
+            <h3 className="mb-2 text-xl  dark:text-white tracking-tight font-semibold leading-none ">
               A Specialized Team
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
@@ -48,7 +48,7 @@ export function DefaultFeatureListSection() {
                 <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
               </svg>
             </div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
+            <h3 className="mb-2 text-xl dark:text-white tracking-tight font-semibold leading-none">
               Analytical Market Development
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
@@ -73,7 +73,7 @@ export function DefaultFeatureListSection() {
                 <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z" />
               </svg>
             </div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
+            <h3 className="mb-2 text-xl tracking-tight font-semibold leading-none dark:text-white">
               Relationship Management Proposition
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
@@ -99,7 +99,7 @@ export function DefaultFeatureListSection() {
                 />
               </svg>
             </div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
+            <h3 className="mb-2 text-xl tracking-tight font-semibold leading-none dark:text-white">
               Exclusivity
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
@@ -118,7 +118,7 @@ export function DefaultFeatureListSection() {
                 <path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z" />
               </svg>
             </div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
+            <h3 className="mb-2 text-xl tracking-tight font-semibold leading-none dark:text-white">
               End-to-End Offering
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
@@ -141,7 +141,7 @@ export function DefaultFeatureListSection() {
                 />
               </svg>
             </div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
+            <h3 className="mb-2 text-xl tracking-tight font-semibold leading-none dark:text-white">
               Risk Management
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
