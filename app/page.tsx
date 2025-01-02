@@ -1,30 +1,30 @@
-import AlternateImageWithFeatureListSection from "./components/alternate";
+import ProductCategoriesWithCards from "./components/cards";
 import AppScreenshotWithCTAsHero from "./components/cta-app-preview";
 
-import DefaultNewsletterSection from "./components/default-newsletter";
-import DefaultPricingTable from "./components/default-pricing";
 import DescriptionWithFeatureListIconsSection from "./components/description-icon-list";
 import { LogoCTALinksImageFeatureListContentSection } from "./components/feature-list";
-import FeaturedProductCategories from "./components/featured";
-import GridLayoutTestimonialCards from "./components/grid-layout-cards";
-import SearchBarWithLinksFAQSection from "./components/help-center-search";
-import IllustrationWithStatisticsSocialProof from "./components/illustration";
+
 import { DefaultFeatureListSection } from "./components/process";
 
 export default function Home() {
   return (
     <main>
-      <AppScreenshotWithCTAsHero />
-      <LogoCTALinksImageFeatureListContentSection />
-      <DescriptionWithFeatureListIconsSection />
-      <DefaultFeatureListSection />
-      <FeaturedProductCategories />
-      {/* <AlternateImageWithFeatureListSection /> */}
-      <GridLayoutTestimonialCards />
-      {/* <IllustrationWithStatisticsSocialProof /> */}
+      <div id="hero">
+        <AppScreenshotWithCTAsHero />
+      </div>
+      <div id="about">
+        <LogoCTALinksImageFeatureListContentSection />
+      </div>
+      <div id="why-us">
+        <DescriptionWithFeatureListIconsSection />
+      </div>
+      <div id="how">
+        <DefaultFeatureListSection />
+      </div>
 
-      {/* <SearchBarWithLinksFAQSection />
-      <DefaultNewsletterSection /> */}
+      <div id="products">
+        <ProductCategoriesWithCards />
+      </div>
     </main>
   );
 }

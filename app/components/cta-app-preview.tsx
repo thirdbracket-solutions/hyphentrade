@@ -7,10 +7,11 @@ const AppScreenshotWithCTAsHero: FC = function () {
   return (
     <section className="bg-white dark:bg-gray-900">
       <div className="mx-auto max-w-screen-xl px-4 pt-8 text-center lg:px-12 lg:pt-16">
-        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl capitalize">
-          We invest in the world’s potential
+        <h1 className="mb-4 text-4xl font-extrabold  tracking-tight leading-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl capitalize ">
+          We invest in the <br />
+          world’s potential
         </h1>
-        <p className="mb-8 text-gray-500 dark:text-gray-400 sm:px-16  xl:px-48 text-lg font-normal ">
+        <p className="mb-8   sm:px-16  xl:px-48 text-lg font-normal text-gray-500 dark:text-gray-400 leading-7 ">
           Hyphen Trade’s works with commodity sellers who are sovereigns as well
           as large corporate houses located outside Bangladesh.
         </p>
@@ -28,7 +29,7 @@ const AppScreenshotWithCTAsHero: FC = function () {
             About Us
           </Button>
           <Button
-            color="light"
+            color="dark"
             outline
             size="lg"
             className="[&>span]:items-center"
@@ -49,21 +50,21 @@ const AppScreenshotWithCTAsHero: FC = function () {
           </Button>
         </div>
         <Image
-          className="z-1 mx-auto mb-5 rounded-lg border border-gray-200 shadow-xl  dark:border-gray-600 lg:mb-8 bg-slate-50 dark:bg-gray-800"
+          className="z-1 mx-auto mb-5 rounded-lg border border-gray-200 dark:hidden dark:border-gray-700  shadow-xl bg-slate-50  lg:mb-8   "
           src="/cover.png"
           alt="dashboard overview"
-          width={800}
-          height={500}
+          width={832}
+          height={600}
         />
-        {/* <Image
-          className="z-1 mx-auto mb-5 hidden rounded-lg border border-gray-200 shadow-xl dark:block dark:border-gray-600 lg:mb-8 bg-slate-50"
-          src="/cover.png"
-          width={800}
-          height={500}
+        <Image
+          className="z-1 mx-auto mb-5 hidden rounded-lg border  shadow-xl dark:block dark:border-gray-700  lg:mb-8 dark:bg-gray-800"
+          src="/covern.png"
+          width={832}
+          height={600}
           alt="dashboard overview dark"
-        /> */}
+        />
       </div>
-      <div className="z-2 -mt-48 bg-slate-50 pb-8 pt-48 dark:bg-gray-800 sm:-mt-80 sm:pt-80 lg:pb-16">
+      <div className="z-2 -mt-48 bg-gray-50 pb-8 pt-48 dark:bg-gray-800 sm:-mt-80 sm:pt-80 lg:pb-16">
         <div className="mx-auto px-4 text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
           <div className="mt-8 flex flex-wrap items-center justify-center text-gray-500 sm:justify-between">
             <a

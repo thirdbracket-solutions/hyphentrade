@@ -12,13 +12,9 @@ export function LogoCTALinksImageFeatureListContentSection() {
             height={47}
             className="mx-auto w-auto object-contain"
           />
-          {/* <img
-            alt="Flowbite logo"
-            src="https://flowbite.s3.amazonaws.com/brand/logo-dark/type/flowbite-logo.svg"
-            className="mx-auto hidden w-auto object-contain dark:block"
-          /> */}
+
           <div className="mt-4">
-            <h2 className="mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 dark:text-white md:text-4xl lg:text-5xl ">
+            <h2 className=" text-3xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white md:text-4xl lg:text-5xl capitalize">
               About Hyphen Trade
             </h2>
           </div>
@@ -35,10 +31,10 @@ export function LogoCTALinksImageFeatureListContentSection() {
         <div className="mt-8 grid grid-cols-1 gap-8 lg:mt-16 lg:grid-cols-2 lg:gap-16">
           <div>
             <div>
-              <h3 className="text-2xl font-extrabold text-gray-900 dark:text-white">
+              <h3 className="text-2xl leading-tight tracking-tight font-bold text-gray-900 dark:text-white">
                 Overview
               </h3>
-              <p className="mt-2 font-normal text-gray-500 dark:text-gray-400">
+              <p className="mt-4    text-gray-500 leading-6 dark:text-gray-400">
                 The lineage of Hyphen Trade dates back to the 1950s when M. M.
                 Agha Ltd. pioneered into commercial poultry farming followed by
                 feed meal manufacturing. The company was a market leader in the
@@ -101,10 +97,10 @@ export function LogoCTALinksImageFeatureListContentSection() {
           </div>
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-extrabold text-gray-900 dark:text-white">
+              <h3 className="text-2xl font-bold text-gray-900 dark:text-white leading-tight tracking-tight">
                 Background
               </h3>
-              <p className="mt-2 font-normal text-gray-500 dark:text-gray-400">
+              <p className="mt-4 leading-6 text-gray-500 dark:text-gray-400">
                 Come 2021, Hyphen Trade is a specialized company in Bangladesh
                 that provides a bridge to the international commodity sellers to
                 enter and serve the Bangladesh market. The company is well
@@ -115,10 +111,10 @@ export function LogoCTALinksImageFeatureListContentSection() {
               </p>
             </div>
             <div>
-              <h3 className="text-2xl font-extrabold text-gray-900 dark:text-white">
+              <h3 className="text-2xl font-bold text-gray-900 dark:text-white leading-tight tracking-tight">
                 Core Values
               </h3>
-              <p className="mt-2 font-normal text-gray-500 dark:text-gray-400">
+              <p className="mt-4 text-gray-500 dark:text-gray-400 leading-6">
                 The company works by integrating itself with the commodity
                 seller as a marketing, sales and support provider including
                 packaging logistical solutions (lightering and stevedoring).
@@ -137,7 +133,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
 
 const GreenCheckIconSVG = () => (
   <svg
-    className="h-5 w-5 text-green-500"
+    className="h-5 w-5 text-primary-500"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 20 20"
     fill="currentColor"

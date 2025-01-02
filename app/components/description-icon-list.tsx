@@ -6,10 +6,10 @@ const DescriptionWithFeatureListIconsSection: FC = function () {
     <section className="bg-slate-50 dark:bg-gray-800">
       <div className="mx-auto max-w-screen-xl items-center px-4 py-8 sm:py-16 lg:grid lg:gap-8 lg:px-6 xl:grid-cols-3 xl:gap-24">
         <div className="mb-8 lg:mb-0">
-          <h2 className="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-            Why Hyphen Trade?
+          <h2 className="mb-4 text-3xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white md:text-4xl lg:text-5xl capitalize">
+            Why Us?
           </h2>
-          <p className="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400">
+          <p className="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400 leading-7">
             Our team has a history in working for multinational corporates -
             both in and outside Bangladesh. We have a strong network of contacts
             in the GTG space and have a deep understanding of the market.
@@ -45,10 +45,10 @@ const DescriptionWithFeatureListIconsSection: FC = function () {
                 <path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z" />
               </svg>
             </div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               Experties & Professionalism
             </h3>
-            <p className="text-gray-500 dark:text-gray-400">
+            <p className="text-gray-500 dark:text-gray-400 leading-6">
               We have a working relationship with the key stakeholders in the
               GTG space. Our past work history signifies our strength in this
               field. team.
@@ -70,10 +70,10 @@ const DescriptionWithFeatureListIconsSection: FC = function () {
                 <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z" />
               </svg>
             </div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               Experience & Access
             </h3>
-            <p className="text-gray-500 dark:text-gray-400">
+            <p className="text-gray-500 dark:text-gray-400 leading-6">
               We have direct access to all major importers in Bangladesh. Our
               senior management team has over 20 years of experience in handling
               commodity buyers in the Bangladesh market
@@ -94,10 +94,10 @@ const DescriptionWithFeatureListIconsSection: FC = function () {
                 />
               </svg>
             </div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               Data-driven Marketing
             </h3>
-            <p className="text-gray-500 dark:text-gray-400">
+            <p className="text-gray-500 dark:text-gray-400 leading-6">
               Our strategic competitive advantage lies in our capability in
               real-time data analytics which drives marketing – this stands
               unmatched in the Bangladesh market
@@ -119,10 +119,10 @@ const DescriptionWithFeatureListIconsSection: FC = function () {
                 />
               </svg>
             </div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               On-Time Payment
             </h3>
-            <p className="text-gray-500 dark:text-gray-400">
+            <p className="text-gray-500 dark:text-gray-400 leading-6">
               Structuring capabilities for ensuring deep access to all major
               bank’s decision makers in international trade – we are able to
               offer payment risk management which is a unique offering itself

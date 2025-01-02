@@ -4,14 +4,13 @@ import { Button, DarkThemeToggle, Flowbite, Navbar } from "flowbite-react";
 import Image from "next/image";
 import Link from "next/link";
 import type { FC } from "react";
-import { MdMenu } from "react-icons/md";
+import { MdMenu, MdPhone } from "react-icons/md";
 import logo from "../../public/logo.svg";
 
 const DefaultHeaderNavigation: FC = function () {
   return (
-    <header className="sticky top-0 z-50">
+    <header className="sticky top-0 z-50 ">
       <Navbar
-        fluid
         border
         theme={{
           root: {
@@ -45,6 +44,7 @@ const DefaultHeaderNavigation: FC = function () {
 
           <Button
             gradientDuoTone="cyanToBlue"
+            href="tel:+8801713145313"
             size="md"
             theme={{
               size: {
@@ -56,7 +56,7 @@ const DefaultHeaderNavigation: FC = function () {
               },
             }}
           >
-            Get Started
+            <MdPhone />
           </Button>
 
           <Navbar.Toggle
@@ -69,8 +69,9 @@ const DefaultHeaderNavigation: FC = function () {
         </div>
         <Navbar.Collapse
           theme={{
-            list: "mt-4 flex flex-col lg:mt-0 lg:flex-row md:flex-row md:mt-0 md:space-x-4 lg:space-x-8 lg:text-base lg:font-medium md:text-[14px] md:font-normal",
-            // base: "w-full md:block md:w-auto ",
+            // list: "mt-4 flex flex-col lg:mt-0 lg:flex-row md:flex-row md:mt-0 md:space-x-4 lg:space-x-8 lg:text-base lg:font-medium md:text-[14px] md:font-normal",
+            base: "w-full md:block md:w-auto ",
+            list: "mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:text-sm md:font-medium",
           }}
           className="lg:order-1 md:order-1"
         >
@@ -87,7 +88,7 @@ const DefaultHeaderNavigation: FC = function () {
             Home
           </Navbar.Link>
           <Navbar.Link
-            href="#"
+            href="/#why-us"
             theme={{
               active: {
                 on: "bg-primary-700 text-white dark:text-white md:bg-transparent md:text-primary-700",
@@ -98,7 +99,7 @@ const DefaultHeaderNavigation: FC = function () {
             Features
           </Navbar.Link>
           <Navbar.Link
-            href="#"
+            href="/#products"
             theme={{
               active: {
                 on: "bg-primary-700 text-white dark:text-white md:bg-transparent md:text-primary-700",
@@ -109,7 +110,7 @@ const DefaultHeaderNavigation: FC = function () {
             Products
           </Navbar.Link>
           <Navbar.Link
-            href="#"
+            href="/#about"
             theme={{
               active: {
                 on: "bg-primary-700 text-white dark:text-white md:bg-transparent md:text-primary-700",
@@ -121,7 +122,7 @@ const DefaultHeaderNavigation: FC = function () {
           </Navbar.Link>
 
           <Navbar.Link
-            href="#"
+            href="/#contact"
             theme={{
               active: {
                 on: "bg-primary-700 text-white dark:text-white md:bg-transparent md:text-primary-700",
