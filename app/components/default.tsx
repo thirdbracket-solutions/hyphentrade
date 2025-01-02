@@ -48,7 +48,7 @@ const DefaultHeaderNavigation: FC = function () {
             size="md"
             theme={{
               size: {
-                md: "!rounded-sm px-2 py-1.5 text-xs sm:text-sm sm:px-4 sm:py-2",
+                md: "!rounded-sm px-3 py-1.5  text-sm sm:px-4 sm:py-2",
               },
               gradientDuoTone: {
                 cyanToBlue:
