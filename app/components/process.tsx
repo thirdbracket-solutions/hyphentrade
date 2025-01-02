@@ -1,6 +1,6 @@
 export function DefaultFeatureListSection() {
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-white dark:bg-gray-950">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6">
         <div className="mb-8 max-w-screen-md lg:mb-16">
           <h2 className="text-3xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white md:text-4xl lg:text-5xl capitalize mb-4">

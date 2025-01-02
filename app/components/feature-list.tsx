@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function LogoCTALinksImageFeatureListContentSection() {
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-white dark:bg-gray-950">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6 lg:py-24">
         <div className="text-center">
           <Image

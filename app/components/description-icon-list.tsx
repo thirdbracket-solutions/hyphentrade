@@ -3,7 +3,7 @@ import { MdAssistant } from "react-icons/md";
 
 const DescriptionWithFeatureListIconsSection: FC = function () {
   return (
-    <section className="bg-slate-50 dark:bg-gray-800">
+    <section className="bg-slate-50 dark:bg-gray-900">
       <div className="mx-auto max-w-screen-xl items-center px-4 py-8 sm:py-16 lg:grid lg:gap-8 lg:px-6 xl:grid-cols-3 xl:gap-24">
         <div className="mb-8 lg:mb-0">
           <h2 className="mb-4 text-3xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white md:text-4xl lg:text-5xl capitalize">

@@ -15,7 +15,7 @@ export function SocialMediaIconsFooterSection() {
         <div className="grid lg:grid-cols-2">
           <div className="mb-4 lg:mb-0 ">
             <a
-              href="#"
+              href="/"
               className=" flex items-center text-2xl font-semibold text-gray-900 dark:text-white "
             >
               <Image
@@ -28,11 +28,11 @@ export function SocialMediaIconsFooterSection() {
               Hyphentrade
             </a>
             <span className="flex items-center justify-start gap-2 mt-4 text-sm text-gray-500 dark:text-gray-400 text-left px-2">
-              <MdLocationPin />
+              <MdLocationPin className="w-4 h-4" />
               A1, House 17, Road 128, Gulshan 01, Dhaka, Bangladesh
             </span>
             <span className="flex items-center justify-start gap-2 mt-4 text-sm text-gray-500 dark:text-gray-400 text-left px-2">
-              <MdPhoneIphone />
+              <MdPhoneIphone className="w-4 h-4" />
               info@hyphentrade.org
             </span>
           </div>

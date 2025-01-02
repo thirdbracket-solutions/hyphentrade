@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const AppScreenshotWithCTAsHero: FC = function () {
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-white dark:bg-gray-950">
       <div className="mx-auto max-w-screen-xl px-4 pt-8 text-center lg:px-12 lg:pt-16">
         <h1 className="mb-4 text-4xl font-extrabold  tracking-tight leading-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl capitalize ">
           We invest in the <br />
@@ -17,6 +17,7 @@ const AppScreenshotWithCTAsHero: FC = function () {
         </p>
         <div className="mb-8 flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-x-4 sm:space-y-0 lg:mb-16">
           <Button
+            href="/#about"
             gradientDuoTone="cyanToBlue"
             size="lg"
             theme={{
@@ -29,8 +30,8 @@ const AppScreenshotWithCTAsHero: FC = function () {
             About Us
           </Button>
           <Button
+            href="/#products"
             color="dark"
-            outline
             size="lg"
             className="[&>span]:items-center"
           >
