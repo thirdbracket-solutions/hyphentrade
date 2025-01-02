@@ -17,11 +17,11 @@ export default function ProductCategoriesWithCards() {
   return (
     <section className="bg-gray-50 py-8 antialiased md:py-16 dark:bg-gray-900">
       <div className="mx-auto max-w-screen-xl px-4 2xl:px-0">
-        <h2 className="text-4xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl capitalize text-center mb-4">
+        <h2 className="text-3xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white md:text-4xl lg:text-5xl capitalize text-center mb-4">
           Products
         </h2>
         <div className="sm:flex sm:items-center sm:justify-between sm:gap-4">
-          <p className="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400 leading-8">
+          <p className="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400 leading-7">
             We are specialized to develop and create a market for sovereigns and
             international commodity sellers in Bangladesh. Hyphen Trade’s focus
             on the following product categories:
