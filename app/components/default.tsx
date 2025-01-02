@@ -18,7 +18,7 @@ const DefaultHeaderNavigation: FC = function () {
           },
         }}
       >
-        <Navbar.Brand href="https://flowbite.com" className="">
+        <Navbar.Brand href="/" className="">
           <Image
             src={logo}
             width={47}
@@ -83,7 +83,7 @@ const DefaultHeaderNavigation: FC = function () {
               },
             }}
             active
-            href="#"
+            href="/"
           >
             Home
           </Navbar.Link>
