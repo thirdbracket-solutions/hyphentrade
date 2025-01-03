@@ -19,7 +19,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
             </h2>
           </div>
         </div>
-        <div className="mx-auto mt-8 max-w-5xl lg:mt-16">
+        {/* <div className="mx-auto mt-8 max-w-5xl lg:mt-16">
           <Image
             alt=""
             src="/cover-3.png"
@@ -27,7 +27,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
             height={694}
             className="w-full rounded-lg shadow-lg"
           />
-        </div>
+        </div> */}
         <div className="mt-8 grid grid-cols-1 gap-8 lg:mt-16 lg:grid-cols-2 lg:gap-16">
           <div>
             <div>
