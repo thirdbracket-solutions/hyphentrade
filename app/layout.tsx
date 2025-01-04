@@ -5,7 +5,6 @@ import { ThemeModeScript } from "flowbite-react";
 import DefaultHeaderNavigation from "./components/default";
 
 import { SocialMediaIconsFooterSection } from "./components/social-media";
-import { MyNav } from "@/components/Nav";
 
 const inter = Inter({ subsets: ["latin"] });
 
