@@ -7,8 +7,9 @@ export const links: LinkItem[] = [
     name: "About Us",
     to: "/#about",
   },
-  { id: 2, name: "Why Us?", to: "/#why-us" },
-  { id: 3, name: "How It Works", to: "/#how-it-works" },
+  { id: 2, name: "How It Works", to: "/#how-it-works" },
+  { id: 3, name: "Why Us?", to: "/#why-us" },
+
   { id: 4, name: "Products", to: "/#products" },
   { id: 5, name: "Contact", to: "/#contact" },
 
