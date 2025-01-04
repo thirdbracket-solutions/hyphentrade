@@ -5,6 +5,7 @@ import {
   MdPhone,
   MdPhoneIphone,
 } from "react-icons/md";
+import Contact from "../contact";
 export function SocialMediaIconsFooterSection() {
   return (
     <footer
@@ -59,7 +60,7 @@ export function SocialMediaIconsFooterSection() {
                 </a>
               </li>
             </ul>
-            <form action="#" className="flex w-full max-w-sm lg:ml-auto">
+            {/* <form action="#" className="flex w-full max-w-sm lg:ml-auto">
               <div className="relative w-full">
                 <label
                   htmlFor="email"
@@ -92,7 +93,8 @@ export function SocialMediaIconsFooterSection() {
               >
                 Subscribe
               </button>
-            </form>
+            </form> */}
+            <Contact />
           </div>
         </div>
         <hr className="my-6 border-gray-200 dark:border-gray-700 sm:mx-auto lg:my-8" />

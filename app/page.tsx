@@ -6,10 +6,12 @@ import { LogoCTALinksImageFeatureListContentSection } from "./components/feature
 
 import { DefaultFeatureListSection } from "./components/process";
 
+import Contact from "./contact";
+
 export default function Home() {
   return (
     <main>
-      <div id="hero">
+      <div id="home">
         <AppScreenshotWithCTAsHero />
       </div>
       <div id="about">
@@ -18,13 +20,16 @@ export default function Home() {
       <div id="why-us">
         <DescriptionWithFeatureListIconsSection />
       </div>
-      <div id="how">
+      <div id="how-it-works">
         <DefaultFeatureListSection />
       </div>
 
       <div id="products">
         <ProductCategoriesWithCards />
       </div>
+      {/* <div>
+        <Contact />
+      </div> */}
     </main>
   );
 }

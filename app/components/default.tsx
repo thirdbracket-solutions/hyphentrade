@@ -6,6 +6,7 @@ import Link from "next/link";
 import type { FC } from "react";
 import { MdMenu, MdPhone } from "react-icons/md";
 import logo from "../../public/logo.svg";
+import NavLink from "../../components/Navlinks";
 
 const DefaultHeaderNavigation: FC = function () {
   return (
@@ -23,7 +24,7 @@ const DefaultHeaderNavigation: FC = function () {
             src={logo}
             width={47}
             height={47}
-            className="mr-1 h-6 sm:h-9"
+            className="h-6 sm:h-7"
             alt="Hyphen Trade Logo"
           />
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
@@ -35,7 +36,7 @@ const DefaultHeaderNavigation: FC = function () {
             <DarkThemeToggle
               theme={{
                 root: {
-                  base: "flex items-center justify-center rounded-md  p-2 text-sm text-gray-500 hover:bg-slate-200 focus:outline-none dark:text-slate-400 dark:hover:bg-gray-700 dark:focus:ring-gray-800",
+                  base: "flex items-center justify-center rounded-md  p-1.5 text-sm text-gray-700 hover:bg-slate-200 focus:outline-none dark:text-slate-300 dark:hover:bg-gray-700 dark:focus:ring-gray-800",
                   icon: "h-4 w-4 sm:h-5 sm:w-5",
                 },
               }}
@@ -48,11 +49,11 @@ const DefaultHeaderNavigation: FC = function () {
             size="md"
             theme={{
               size: {
-                md: "!rounded-sm px-3 py-1.5  text-sm sm:px-4 sm:py-2",
+                md: " p-1 sm:p-1.5  text-sm ",
               },
               gradientDuoTone: {
                 cyanToBlue:
-                  "bg-gradient-to-r from-sky-600 to-primary-700 text-white focus:ring-2 focus:ring-primary-300 enabled:hover:bg-gradient-to-bl dark:focus:ring-primary-800",
+                  " bg-gradient-to-r from-sky-600 to-primary-700 text-white focus:ring-2 focus:ring-primary-300 enabled:hover:bg-gradient-to-bl dark:focus:ring-primary-800",
               },
             }}
           >
@@ -63,7 +64,7 @@ const DefaultHeaderNavigation: FC = function () {
             barIcon={MdMenu}
             theme={{
               icon: "h-6 w-6 shrink-0",
-              base: "inline-flex items-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none  dark:text-gray-400 dark:hover:bg-gray-700  md:hidden",
+              base: "inline-flex items-center rounded-lg p-1.5 text-sm text-gray-700 hover:bg-gray-200 focus:outline-none  dark:text-gray-200 dark:hover:bg-gray-700  md:hidden",
             }}
           />
         </div>
@@ -75,7 +76,7 @@ const DefaultHeaderNavigation: FC = function () {
           }}
           className="lg:order-1 md:order-1"
         >
-          <Navbar.Link
+          {/* <Navbar.Link
             theme={{
               active: {
                 on: "bg-primary-600  text-white dark:text-white md:bg-transparent md:text-primary-700 rounded-md ",
@@ -131,7 +132,8 @@ const DefaultHeaderNavigation: FC = function () {
             }}
           >
             Contact
-          </Navbar.Link>
+          </Navbar.Link> */}
+          <NavLink />
         </Navbar.Collapse>
       </Navbar>
     </header>

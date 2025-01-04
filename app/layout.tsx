@@ -5,6 +5,7 @@ import { ThemeModeScript } from "flowbite-react";
 import DefaultHeaderNavigation from "./components/default";
 
 import { SocialMediaIconsFooterSection } from "./components/social-media";
+import { MyNav } from "@/components/Nav";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <DefaultHeaderNavigation />
+        {/* <MyNav /> */}
         {children}
 
         <SocialMediaIconsFooterSection />
