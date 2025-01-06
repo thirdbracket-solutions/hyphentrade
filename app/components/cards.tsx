@@ -15,7 +15,7 @@ import { GiBeanstalk, GiPeas, GiSugarCane } from "react-icons/gi";
 
 export default function ProductCategoriesWithCards() {
   return (
-    <section className="bg-gray-50 py-8 antialiased md:py-16 dark:bg-gray-900 ">
+    <section className="bg-white py-8 antialiased sm:py-16 lg:py-24 dark:bg-gray-950 ">
       <div className="mx-auto max-w-screen-xl px-4 2xl:px-0">
         <h2 className="text-3xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white md:text-4xl lg:text-5xl capitalize text-center mb-4">
           Products

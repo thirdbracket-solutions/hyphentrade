@@ -6,14 +6,15 @@ import Image from "next/image";
 const AppScreenshotWithCTAsHero: FC = function () {
   return (
     <section className="bg-white dark:bg-gray-950">
-      <div className="mx-auto max-w-screen-xl px-4 pt-8 text-center lg:px-12 lg:pt-16">
-        <h1 className="mb-4 text-4xl font-extrabold   leading-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl capitalize ">
-          We invest in the <br />
-          world’s potential
+      <div className="mx-auto max-w-screen-xl px-4  text-center lg:px-12     py-8 sm:py-16 lg:py-24">
+        <h1 className="mb-4 text-3xl font-extrabold tracking-tight leading-tight text-gray-900 dark:text-white md:text-4xl lg:text-5xl capitalize max-w-screen-lg mx-auto">
+          We establish markets for international commodity sellers in Bangladesh
         </h1>
-        <p className="mb-8   sm:px-16  xl:px-48 text-lg font-normal text-gray-500 dark:text-gray-400 leading-7 ">
-          Hyphen Trade’s works with commodity sellers who are sovereigns as well
-          as large corporate houses located outside Bangladesh.
+        <p className="mb-8   sm:px-16  xl:px-48 text-base md:text-lg lg:text-xl font-normal text-gray-500 dark:text-gray-400 leading-6 ">
+          Hyphen Trade works to create a profitable and a sustainable business
+          model for sovereigns and large international commodity sellers to
+          serve the Bangladesh market – our business model is structured basis
+          one supplier – one product approach.
         </p>
         <div className="mb-8 flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-x-4 sm:space-y-0 lg:mb-16">
           <Button
@@ -51,21 +52,21 @@ const AppScreenshotWithCTAsHero: FC = function () {
           </Button>
         </div>
         <Image
-          className="z-1 mx-auto mb-5 rounded-lg border border-gray-200 dark:hidden dark:border-gray-700  shadow-xl bg-slate-50  lg:mb-8   "
+          className="z-1 mx-auto rounded-lg border border-gray-200 dark:hidden dark:border-gray-700  shadow-xl bg-slate-50     "
           src="/cover.svg"
           alt="dashboard overview"
           width={832}
           height={600}
         />
         <Image
-          className="z-1 mx-auto mb-5 hidden rounded-lg border  shadow-xl dark:block dark:border-gray-700  lg:mb-8 dark:bg-gray-800"
+          className="z-1 mx-auto  hidden rounded-lg border  shadow-xl dark:block dark:border-gray-700   dark:bg-gray-800"
           src="/coverdark.svg"
           width={832}
           height={600}
           alt="dashboard overview dark"
         />
       </div>
-      <div className="z-2 -mt-48 bg-gray-50 pb-8 pt-48 dark:bg-gray-800 sm:-mt-80 sm:pt-80 lg:pb-16">
+      {/* <div className="z-2 -mt-48 bg-gray-50 pb-8 pt-48 dark:bg-gray-800 sm:-mt-80 sm:pt-80 lg:pb-16">
         <div className="mx-auto px-4 text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
           <div className="mt-8 flex flex-wrap items-center justify-center text-gray-500 sm:justify-between">
             <a
@@ -109,7 +110,7 @@ const AppScreenshotWithCTAsHero: FC = function () {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

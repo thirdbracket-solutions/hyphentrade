@@ -27,8 +27,8 @@ const DefaultHeaderNavigation: FC = function () {
             className="h-6 sm:h-7"
             alt="Hyphen Trade Logo"
           />
-          <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-            Hyphentrade
+          <span className="self-center whitespace-nowrap text-xl tracking-tight leading-tight font-semibold dark:text-white">
+            Hyphen Trade
           </span>
         </Navbar.Brand>
         <div className="flex items-center gap-3 md:gap-2 lg:order-2 md:order-2">
@@ -36,29 +36,43 @@ const DefaultHeaderNavigation: FC = function () {
             <DarkThemeToggle
               theme={{
                 root: {
-                  base: "flex items-center justify-center rounded-md  p-1.5 text-sm text-gray-700 hover:bg-slate-200 focus:outline-none dark:text-slate-300 dark:hover:bg-gray-700 dark:focus:ring-gray-800",
-                  icon: "h-4 w-4 sm:h-5 sm:w-5",
+                  base: "flex items-center justify-center rounded-md  p-1 sm:p-1.5 text-sm text-gray-700  focus:outline-none dark:text-slate-300 dark:focus:ring-gray-800",
+                  icon: "size-4 sm:size-5",
                 },
               }}
             />
           </Flowbite>
 
           <Button
-            gradientDuoTone="cyanToBlue"
-            href="tel:+8801713145313"
+            color="light"
             size="md"
             theme={{
               size: {
-                md: " p-1 sm:p-1.5  text-sm ",
-              },
-              gradientDuoTone: {
-                cyanToBlue:
-                  " bg-gradient-to-r from-sky-600 to-primary-700 text-white focus:ring-2 focus:ring-primary-300 enabled:hover:bg-gradient-to-bl dark:focus:ring-primary-800",
+                md: "p-1 sm:p-1.5  text-sm",
               },
             }}
           >
-            <MdPhone />
+            <MdPhone className="size-4 sm:size-5" />
           </Button>
+
+          {/* <Button
+            gradientDuoTone="cyanToBlue"
+            href="tel:+8801713145313"
+            size="md"
+            outline
+            pill
+            // theme={{
+            //   size: {
+            //     md: " p-1 sm:p-1.5  text-sm ",
+            //   },
+            //   gradientDuoTone: {
+            //     cyanToBlue:
+            //       " bg-gradient-to-r from-sky-600 to-primary-700 text-white focus:ring-2 focus:ring-primary-300 enabled:hover:bg-gradient-to-bl dark:focus:ring-primary-800",
+            //   },
+            // }}
+          >
+            <MdPhone />
+          </Button> */}
 
           <Navbar.Toggle
             barIcon={MdMenu}

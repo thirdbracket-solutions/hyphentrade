@@ -16,10 +16,10 @@ import {
 
 export function DefaultFeatureListSection() {
   return (
-    <section className="bg-slate-50 dark:bg-gray-800">
+    <section className="bg-white dark:bg-gray-950">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6">
         <div className="mb-8 max-w-screen-md lg:mb-16">
-          <h2 className="text-3xl font-bold leading-tight  text-gray-900 dark:text-white md:text-4xl lg:text-5xl capitalize mb-4">
+          <h2 className="text-3xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white md:text-4xl lg:text-5xl capitalize mb-4">
             How Hyphen Trade Works?
           </h2>
           <p className="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400 leading-7">
@@ -37,7 +37,7 @@ export function DefaultFeatureListSection() {
               theme={{
                 root: {
                   size: {
-                    sm: "p-2 text-sm font-medium   ",
+                    sm: "p-2 text-base font-normal leading-6   ",
                   },
                   color: {
                     gray: "bg-gray-100 text-gray-800 group-hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:group-hover:bg-gray-600",
@@ -55,7 +55,7 @@ export function DefaultFeatureListSection() {
               relationship management
             </Badge>
 
-            <p className="text-gray-500 dark:text-gray-400">
+            <p className="mt-4    text-gray-500 leading-6 dark:text-gray-400">
               A specialized, local team offers multiple layers of advantages
               such as access to management and owners of the buyers, early
               market information, relationship management etc.
@@ -70,7 +70,7 @@ export function DefaultFeatureListSection() {
               theme={{
                 root: {
                   size: {
-                    sm: "p-2 text-sm font-medium   ",
+                    sm: "p-2 text-base font-normal leading-6    ",
                   },
                   color: {
                     gray: "bg-gray-100 text-gray-800 group-hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:group-hover:bg-gray-600",
@@ -101,7 +101,7 @@ export function DefaultFeatureListSection() {
               theme={{
                 root: {
                   size: {
-                    sm: "p-2 text-sm font-medium   ",
+                    sm: "p-2 text-base font-normal leading-6     ",
                   },
                   color: {
                     gray: "bg-gray-100 text-gray-800 group-hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:group-hover:bg-gray-600",
@@ -133,7 +133,7 @@ export function DefaultFeatureListSection() {
               theme={{
                 root: {
                   size: {
-                    sm: "p-2 text-sm font-medium   ",
+                    sm: "p-2 text-base font-normal leading-6     ",
                   },
                   color: {
                     gray: "bg-gray-100 text-gray-800 group-hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:group-hover:bg-gray-600",
@@ -163,7 +163,7 @@ export function DefaultFeatureListSection() {
               theme={{
                 root: {
                   size: {
-                    sm: "p-2 text-sm font-medium   ",
+                    sm: "p-2 text-base font-normal leading-6    ",
                   },
                   color: {
                     gray: "bg-gray-100 text-gray-800 group-hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:group-hover:bg-gray-600",
@@ -195,7 +195,7 @@ export function DefaultFeatureListSection() {
               theme={{
                 root: {
                   size: {
-                    sm: "p-2 text-sm font-medium   ",
+                    sm: "p-2 text-base font-normal leading-6    ",
                   },
                   color: {
                     gray: "bg-gray-100 text-gray-800 group-hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:group-hover:bg-gray-600",

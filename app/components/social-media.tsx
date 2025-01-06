@@ -10,7 +10,7 @@ export function SocialMediaIconsFooterSection() {
   return (
     <footer
       id="contact"
-      className="rounded-none bg-white p-4 py-8 dark:bg-gray-800 md:p-8 lg:p-10"
+      className="rounded-none bg-slate-50 p-4 py-8 dark:bg-gray-800 md:p-8 lg:p-10"
     >
       <div className="mx-auto max-w-screen-xl text-center">
         <div className="grid lg:grid-cols-2">
@@ -26,7 +26,7 @@ export function SocialMediaIconsFooterSection() {
                 src="/logo.svg"
                 alt="logo"
               />
-              Hyphentrade
+              Hyphen Trade
             </a>
             <span className="flex items-center justify-start gap-2 mt-4 text-sm text-gray-500 dark:text-gray-400 text-left px-2">
               <MdLocationPin className="w-4 h-4" />
@@ -102,7 +102,7 @@ export function SocialMediaIconsFooterSection() {
           <span className="block text-sm text-gray-500 dark:text-gray-400">
             © 2024-2025&nbsp;
             <a href="https://flowbite.com" className="hover:underline">
-              Hyphentrade™
+              Hyphen Trade ™
             </a>
             . All Rights Reserved.
           </span>
