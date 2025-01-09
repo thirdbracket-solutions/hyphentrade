@@ -53,16 +53,16 @@ const AppScreenshotWithCTAsHero: FC = function () {
         </div>
         <Image
           className="z-1 mx-auto rounded-lg border border-gray-200 dark:hidden dark:border-gray-700  shadow-xl bg-slate-50     "
-          src="/cover.svg"
+          src="/covernew.svg"
           alt="dashboard overview"
-          width={832}
-          height={600}
+          width={1010}
+          height={666}
         />
         <Image
           className="z-1 mx-auto  hidden rounded-lg border  shadow-xl dark:block dark:border-gray-700   dark:bg-gray-800"
-          src="/coverdark.svg"
-          width={832}
-          height={600}
+          src="/covernew.svg"
+          width={1010}
+          height={666}
           alt="dashboard overview dark"
         />
       </div>

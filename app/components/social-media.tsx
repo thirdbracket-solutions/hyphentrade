@@ -30,15 +30,15 @@ export function SocialMediaIconsFooterSection() {
             </a>
             <span className="flex items-center justify-start gap-2 mt-4 text-sm text-gray-500 dark:text-gray-400 text-left px-2">
               <MdLocationPin className="w-4 h-4" />
-              A1, House 17, Road 128, Gulshan 01, Dhaka, Bangladesh
+              A1, House 17, Road 128, Gulshan 01, Dhaka 1212, Bangladesh
             </span>
             <span className="flex items-center justify-start gap-2 mt-4 text-sm text-gray-500 dark:text-gray-400 text-left px-2">
               <MdPhoneIphone className="w-4 h-4" />
               info@hyphentrade.org
             </span>
           </div>
-          <div>
-            <ul className="mb-4 flex flex-wrap items-center lg:justify-end lg:mb-8  text-sm text-gray-500 dark:text-gray-400  px-2">
+          <div className="flex  items-center lg:justify-end">
+            {/* <ul className="mb-4 flex flex-wrap items-center lg:justify-end lg:mb-8  text-sm text-gray-500 dark:text-gray-400  px-2">
               <li>
                 <a href="#" className="mr-4 hover:underline md:mr-6 ">
                   About
@@ -59,41 +59,8 @@ export function SocialMediaIconsFooterSection() {
                   Contact
                 </a>
               </li>
-            </ul>
-            {/* <form action="#" className="flex w-full max-w-sm lg:ml-auto">
-              <div className="relative w-full">
-                <label
-                  htmlFor="email"
-                  className="mb-2 hidden text-sm font-medium text-gray-900 dark:text-gray-300"
-                >
-                  Email address
-                </label>
-                <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-                  <svg
-                    className="h-5 w-5 text-gray-500 dark:text-gray-400"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                  </svg>
-                </div>
-                <input
-                  type="email"
-                  id="email"
-                  className="block w-full rounded-l-lg border border-gray-300 bg-gray-50 p-3 pl-10 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
-                  placeholder="Your email"
-                  required
-                />
-              </div>
-              <button
-                type="submit"
-                className="cursor-pointer rounded-r-lg border border-primary-600 bg-primary-600 px-5 py-3 text-center text-sm text-white hover:bg-primary-700 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-              >
-                Subscribe
-              </button>
-            </form> */}
+            </ul> */}
+
             <Contact />
           </div>
         </div>
