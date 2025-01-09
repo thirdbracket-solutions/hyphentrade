@@ -9,8 +9,10 @@ import { SocialMediaIconsFooterSection } from "./components/social-media";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Hyphentrade.org",
-  description: "Developed by Thirdbracket | Hyphentrade.org",
+  title:
+    "Hyphen Trade | We establish markets for international commodity sellers in Bangladesh",
+  description:
+    "We establish markets for international commodity sellers in Bangladesh",
 };
 
 export default function RootLayout({

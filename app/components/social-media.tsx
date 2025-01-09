@@ -6,6 +6,7 @@ import {
   MdPhoneIphone,
 } from "react-icons/md";
 import Contact from "../contact";
+import { IoMdHeart } from "react-icons/io";
 export function SocialMediaIconsFooterSection() {
   return (
     <footer
@@ -68,10 +69,19 @@ export function SocialMediaIconsFooterSection() {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="block text-sm text-gray-500 dark:text-gray-400">
             © 2024-2025&nbsp;
-            <a href="https://flowbite.com" className="hover:underline">
+            <a href="/" className="hover:underline">
               Hyphen Trade ™
             </a>
             . All Rights Reserved.
+          </span>
+          <span className="inline-flex text-xs text-gray-600 dark:text-gray-400 whitespace-nowrap italic font-thin">
+            Built with&nbsp; <IoMdHeart /> &nbsp;by&nbsp;
+            <a
+              className="hover:underline  not-italic  font-extralight"
+              href="https://www.musabbirsagar.com/"
+            >
+              Musabbir Sagar
+            </a>
           </span>
           <div className="mt-4 flex justify-center space-x-6 sm:mt-0">
             <a
