@@ -10,7 +10,7 @@ const AppScreenshotWithCTAsHero: FC = function () {
         <h1 className="mb-4 text-3xl font-extrabold tracking-tight leading-tight text-gray-900 dark:text-white md:text-4xl lg:text-5xl capitalize max-w-screen-lg mx-auto">
           We establish markets for international commodity sellers in Bangladesh
         </h1>
-        <p className="mb-8   sm:px-16  xl:px-48 text-base md:text-lg lg:text-xl font-normal text-gray-500 dark:text-gray-400 leading-6 ">
+        <p className="mb-8 px-4   sm:px-16  xl:px-48 text-lg  font-normal text-gray-500 dark:text-gray-400 leading-6 ">
           Hyphen Trade works to create a profitable and a sustainable business
           model for sovereigns and large international commodity sellers to
           serve the Bangladesh market – our business model is structured basis
@@ -52,19 +52,19 @@ const AppScreenshotWithCTAsHero: FC = function () {
           </Button>
         </div>
         <Image
-          className="z-1 mx-auto rounded-lg border border-gray-200 dark:hidden dark:border-gray-700  shadow-xl bg-slate-50     "
+          className="z-1 mx-auto rounded-lg border border-gray-200 dark:bg-gray-800  dark:border-gray-700  shadow-xl bg-slate-50     "
           src="/covernew.svg"
           alt="dashboard overview"
           width={1010}
           height={666}
         />
-        <Image
+        {/* <Image
           className="z-1 mx-auto  hidden rounded-lg border  shadow-xl dark:block dark:border-gray-700   dark:bg-gray-800"
           src="/covernew.svg"
           width={1010}
           height={666}
           alt="dashboard overview dark"
-        />
+        /> */}
       </div>
       {/* <div className="z-2 -mt-48 bg-gray-50 pb-8 pt-48 dark:bg-gray-800 sm:-mt-80 sm:pt-80 lg:pb-16">
         <div className="mx-auto px-4 text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">

@@ -27,7 +27,7 @@ const DefaultHeaderNavigation: FC = function () {
             className="h-6 sm:h-7"
             alt="Hyphen Trade Logo"
           />
-          <span className="self-center whitespace-nowrap text-xl tracking-tight leading-tight font-semibold dark:text-white">
+          <span className="self-center whitespace-nowrap text-xl tracking-tight leading-tight font-bold dark:text-white text-gray-900">
             Hyphen Trade
           </span>
         </Navbar.Brand>
@@ -44,9 +44,14 @@ const DefaultHeaderNavigation: FC = function () {
           </Flowbite>
 
           <Button
+            href="tel:+8801713145313"
             color="light"
             size="md"
             theme={{
+              color: {
+                light:
+                  "border border-gray-300 bg-white text-gray-900 focus:ring-2 focus:ring-slate-300 enabled:hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-600 dark:text-white dark:focus:ring-gray-700 dark:enabled:hover:border-gray-700 dark:enabled:hover:bg-gray-700",
+              },
               size: {
                 md: "p-1 sm:p-1.5  text-sm",
               },
