@@ -10,7 +10,7 @@ const AppScreenshotWithCTAsHero: FC = function () {
         <h1 className="mb-4 text-3xl font-extrabold tracking-tight leading-tight text-gray-900 dark:text-white md:text-4xl lg:text-5xl capitalize max-w-screen-lg mx-auto">
           We establish markets for international commodity sellers in Bangladesh
         </h1>
-        <p className="mb-8 px-4   sm:px-16  xl:px-48 text-lg  font-normal text-gray-500 dark:text-gray-400 leading-6 ">
+        <p className="mb-8 px-4   sm:px-16  xl:px-48 text-lg  font-normal text-gray-500 dark:text-gray-400 leading-7 ">
           Hyphen Trade works to create a profitable and a sustainable business
           model for sovereigns and large international commodity sellers to
           serve the Bangladesh market – our business model is structured basis
