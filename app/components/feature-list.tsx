@@ -16,6 +16,7 @@ import {
   Twitter,
 } from "flowbite-react-icons/solid";
 import Image from "next/image";
+import { MdCheckCircle } from "react-icons/md";
 
 export function LogoCTALinksImageFeatureListContentSection() {
   return (
@@ -79,9 +80,10 @@ export function LogoCTALinksImageFeatureListContentSection() {
                     GTG Contracts / International Tenders
                   </span>
                   <List>
-                    <li className="flex items-center gap-2.5 mt-2">
+                    <li className="flex items-center  gap-x-2 mt-2.5">
                       <GreenCheckIconSVG />
-                      <span className="text-base font-normal text-gray-500 dark:text-gray-400">
+                      {/* <MdCheckCircle className="w-6 h-6 pt-2.5 text-primary-500 shrink-0" /> */}
+                      <span className="text-base font-normal text-gray-500 dark:text-gray-400 ">
                         Expertise in working as an agent for supply of
                         commodities to the Government of Bangladesh under GTG
                         contracts and international tenders.
@@ -301,7 +303,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
 
 const GreenCheckIconSVG = () => (
   <svg
-    className="h-5 w-5 text-primary-500 shrink-0"
+    className="h-4 w-4 text-primary-500 shrink-0 self-baseline mt-1"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 20 20"
     fill="currentColor"

@@ -29,7 +29,7 @@ export function DefaultFeatureListSection() {
           </p>
         </div>
         <div className="space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0 lg:grid-cols-3">
-          <div className="space-y-4">
+          <div className="space-y-2.5">
             <Badge
               color="gray"
               size="sm"
@@ -61,7 +61,7 @@ export function DefaultFeatureListSection() {
               market information, relationship management etc.
             </p>
           </div>
-          <div className="space-y-4">
+          <div className="space-y-2.5">
             <Badge
               color="gray"
               size="sm"
@@ -93,7 +93,7 @@ export function DefaultFeatureListSection() {
               unique and it hardly practiced by any company in Bangladesh
             </p>
           </div>
-          <div className="space-y-4">
+          <div className="space-y-2.5">
             <Badge
               color="gray"
               size="sm"
@@ -125,7 +125,7 @@ export function DefaultFeatureListSection() {
               array of advantages.
             </p>
           </div>
-          <div className="space-y-4">
+          <div className="space-y-2.5">
             <Badge
               color="gray"
               size="sm"
@@ -155,7 +155,7 @@ export function DefaultFeatureListSection() {
               We only work on an exclusive basis.
             </p>
           </div>
-          <div className="space-y-4">
+          <div className="space-y-2.5">
             <Badge
               color="gray"
               size="sm"
@@ -187,7 +187,7 @@ export function DefaultFeatureListSection() {
               commodity seller which leads to higher sales and reduced costs.
             </p>
           </div>
-          <div className="space-y-4">
+          <div className="space-y-2.5">
             <Badge
               color="gray"
               size="sm"

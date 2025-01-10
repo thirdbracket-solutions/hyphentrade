@@ -74,7 +74,7 @@ export function SocialMediaIconsFooterSection() {
             </a>
             . All Rights Reserved.
           </span>
-          <span className="inline-flex text-xs text-gray-600 dark:text-gray-400 whitespace-nowrap italic font-thin">
+          {/* <span className="inline-flex text-xs text-gray-600 dark:text-gray-400 whitespace-nowrap italic font-thin">
             Built with&nbsp; <IoMdHeart /> &nbsp;by&nbsp;
             <a
               className="hover:underline  not-italic  font-extralight"
@@ -82,7 +82,7 @@ export function SocialMediaIconsFooterSection() {
             >
               Musabbir Sagar
             </a>
-          </span>
+          </span> */}
           <div className="mt-4 flex justify-center space-x-6 sm:mt-0">
             <a
               href="#"
