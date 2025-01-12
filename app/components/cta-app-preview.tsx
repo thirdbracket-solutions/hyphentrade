@@ -14,7 +14,7 @@ const AppScreenshotWithCTAsHero: FC = function () {
           Hyphen Trade works to create a profitable and a sustainable business
           model for sovereigns and large international commodity sellers to
           serve the Bangladesh market – our business model is structured basis
-          one supplier – one product approach.
+          "one supplier–one product" approach
         </p>
         <div className="mb-8 flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-x-4 sm:space-y-0 lg:mb-16">
           <Button

@@ -18,7 +18,7 @@ export function DefaultFeatureListSection() {
   return (
     <section className="bg-white dark:bg-gray-950">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6">
-        <div className="mb-8 max-w-screen-md lg:mb-16">
+        <div className="mb-8  lg:mb-16">
           <h2 className="text-3xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white md:text-4xl lg:text-5xl capitalize mb-4">
             How Hyphen Trade Works?
           </h2>
@@ -37,7 +37,7 @@ export function DefaultFeatureListSection() {
               theme={{
                 root: {
                   size: {
-                    sm: "p-2 text-base font-normal leading-6   ",
+                    sm: "p-2.5 text-base font-normal leading-6 text-justify",
                   },
                   color: {
                     gray: "bg-gray-100 text-gray-800 group-hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:group-hover:bg-gray-600",
@@ -46,7 +46,7 @@ export function DefaultFeatureListSection() {
                 icon: {
                   on: "rounded-lg gap-2.5",
                   size: {
-                    sm: "size-4  text-primary-700 dark:text-primary-400 shrink-0 ",
+                    sm: "size-4  text-primary-700 dark:text-primary-400 shrink-0",
                   },
                 },
               }}
@@ -55,7 +55,7 @@ export function DefaultFeatureListSection() {
               relationship management
             </Badge>
 
-            <p className="mt-4    text-gray-500 leading-6 dark:text-gray-400">
+            <p className="mt-4    text-gray-500 leading-6 dark:text-gray-400 text-justify">
               A specialized, local team offers multiple layers of advantages
               such as access to management and owners of the buyers, early
               market information, relationship management etc.
@@ -70,7 +70,7 @@ export function DefaultFeatureListSection() {
               theme={{
                 root: {
                   size: {
-                    sm: "p-2 text-base font-normal leading-6    ",
+                    sm: "p-2.5 text-base font-normal leading-6 text-justify    ",
                   },
                   color: {
                     gray: "bg-gray-100 text-gray-800 group-hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:group-hover:bg-gray-600",
@@ -87,10 +87,10 @@ export function DefaultFeatureListSection() {
               Analytics based market development approach
             </Badge>
 
-            <p className="text-gray-500 dark:text-gray-400">
+            <p className="text-gray-500 dark:text-gray-400 text-justify">
               We are a leader in commodity marketing using monthly data points
               driving our overall marketing proposition in Bangladesh – this is
-              unique and it hardly practiced by any company in Bangladesh
+              unique and it hardly practiced by any company in Bangladesh.
             </p>
           </div>
           <div className="space-y-2.5">
@@ -101,7 +101,7 @@ export function DefaultFeatureListSection() {
               theme={{
                 root: {
                   size: {
-                    sm: "p-2 text-base font-normal leading-6     ",
+                    sm: "p-2.5 text-base font-normal leading-6 text-justify    ",
                   },
                   color: {
                     gray: "bg-gray-100 text-gray-800 group-hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:group-hover:bg-gray-600",
@@ -119,7 +119,7 @@ export function DefaultFeatureListSection() {
               Bangladesh (we do not work on a deal-by-deal basis)
             </Badge>
 
-            <p className="text-gray-500 dark:text-gray-400">
+            <p className="text-gray-500 dark:text-gray-400 text-justify">
               Commodity sellers are not able to offer the full relationship
               management model in Bangladesh – a proposition that offers an
               array of advantages.
@@ -133,7 +133,7 @@ export function DefaultFeatureListSection() {
               theme={{
                 root: {
                   size: {
-                    sm: "p-2 text-base font-normal leading-6     ",
+                    sm: "p-2.5 text-base font-normal leading-6 text-justify    ",
                   },
                   color: {
                     gray: "bg-gray-100 text-gray-800 group-hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:group-hover:bg-gray-600",
@@ -151,7 +151,7 @@ export function DefaultFeatureListSection() {
               specific product category){" "}
             </Badge>
 
-            <p className="text-gray-500 dark:text-gray-400">
+            <p className="text-gray-500 dark:text-gray-400 text-justify">
               We only work on an exclusive basis.
             </p>
           </div>
@@ -163,7 +163,7 @@ export function DefaultFeatureListSection() {
               theme={{
                 root: {
                   size: {
-                    sm: "p-2 text-base font-normal leading-6    ",
+                    sm: "p-2.5 text-base font-normal leading-6 text-justify   ",
                   },
                   color: {
                     gray: "bg-gray-100 text-gray-800 group-hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:group-hover:bg-gray-600",
@@ -182,7 +182,7 @@ export function DefaultFeatureListSection() {
               GTG contract/international tender, lightering, stevedoring etc
             </Badge>
 
-            <p className="text-gray-500 dark:text-gray-400">
+            <p className="text-gray-500 dark:text-gray-400 text-justify">
               We offer the full array of facilities for an international
               commodity seller which leads to higher sales and reduced costs.
             </p>
@@ -195,7 +195,7 @@ export function DefaultFeatureListSection() {
               theme={{
                 root: {
                   size: {
-                    sm: "p-2 text-base font-normal leading-6    ",
+                    sm: "p-2.5 text-base font-normal leading-6 text-justify   ",
                   },
                   color: {
                     gray: "bg-gray-100 text-gray-800 group-hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:group-hover:bg-gray-600",
@@ -212,7 +212,7 @@ export function DefaultFeatureListSection() {
               Payment risk management emanating from bank and country risk
             </Badge>
 
-            <p className="text-gray-500 dark:text-gray-400">
+            <p className="text-gray-500 dark:text-gray-400 text-justify">
               We have full expertise to carry out bank name checks, buyer name
               checks and fund availability checks in order to mitigate the
               payment risk emanating from Bangladesh.

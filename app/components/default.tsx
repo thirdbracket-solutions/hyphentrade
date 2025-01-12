@@ -45,6 +45,7 @@ const DefaultHeaderNavigation: FC = function () {
 
           <Button
             href="tel:+8801713145313"
+            target="_blank"
             color="light"
             size="md"
             theme={{
